@@ -80,13 +80,13 @@ Frontend → http://localhost:8080
 
 Backend → http://localhost:8000
 
-***🧩 Technologies Used***
+## *🧩 Technologies Used*
 
-Backend:
+***Backend:***
 
 FastAPI, TensorFlow, LangChain, SQLite, PyJWT, bcrypt
 
-Frontend:
+***Frontend:***
 
 React (TypeScript), TailwindCSS, shadcn/ui, React Router, Axios, Lucide Icons
 
@@ -97,9 +97,9 @@ React (TypeScript), TailwindCSS, shadcn/ui, React Router, Axios, Lucide Icons
 
 - Fork the repo
 - Create a branch:
-  # git checkout -b feature/your-feature
+-     git checkout -b feature/your-feature
 - Commit changes:
-  # git commit -m "Add your feature"
+-     git commit -m "Add your feature"
 - Push and open a Pull Request
 - Please follow coding guidelines and add tests where needed.
 
