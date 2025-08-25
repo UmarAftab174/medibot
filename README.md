@@ -45,8 +45,8 @@ Includes backend health-check endpoint to verify service status.
 
 ***Backend Setup***
 # Clone repo and move into folder
-##
-<tab><tab>code/git clone https://github.com/Umaraftab174/medibot.git
+######       
+    git clone https://github.com/Umaraftab174/medibot.git
 
 ##
 <tab><tab>code/cd medibot
