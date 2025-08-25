@@ -51,8 +51,7 @@ Includes backend health-check endpoint to verify service status.
 # Create virtual environment
     python -m venv venv
 
-# Activate venv
-    venv/bin/activate
+# Activate venv (CMD)
     venv\Scripts\activate
 
 # Install dependencies
