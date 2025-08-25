@@ -97,9 +97,11 @@ React (TypeScript), TailwindCSS, shadcn/ui, React Router, Axios, Lucide Icons
 
 - Fork the repo
 - Create a branch:
--     git checkout -b feature/your-feature
+
+        git checkout -b feature/your-feature
 - Commit changes:
--     git commit -m "Add your feature"
+
+        git commit -m "Add your feature"
 - Push and open a Pull Request
 - Please follow coding guidelines and add tests where needed.
 
