@@ -37,64 +37,43 @@ Includes backend health-check endpoint to verify service status.
 - LLM manages ongoing chat.
 - Frontend displays results + stored history.
 
-***⚡ Installation***
+## *⚡ Installation*
 - Prerequisites
 - Python 3.12+
 - Node.js 18+
 - Git
 
 ***Backend Setup***
-# Clone repo and move into folder
-######       
+# Clone repo and move into folder       
     git clone https://github.com/Umaraftab174/medibot.git
-
-#
     cd medibot
 
 # Create virtual environment
-##
     python -m venv venv
 
 # Activate venv
-
-##
-<tab><tab>code/source venv/bin/activate
-##
-<tab><tab>code/venv\Scripts\activate
+    venv/bin/activate
+    venv\Scripts\activate
 
 # Install dependencies
-
-##
-<tab><tab>code/pip install -r requirements.txt
+    pip install -r requirements.txt
 
 # Create .env file and add the following:
-
-##
-<tab><tab>code/SECRET_KEY=your-secret-key
-
-##
-<tab><tab>code/GOOGLE_API_KEY=your-google-genai-key
+    SECRET_KEY=your-secret-key
+    GOOGLE_API_KEY=your-google-genai-key
 
 # Run server
-
-##
-<tab><tab>code/uvicorn main:app --reload
+    uvicorn main:app --reload
 
 ***Frontend Setup***
 # Move to frontend folder
-
-##
-<tab><tab>code/cd ./frontend
+    cd ./frontend
 
 # Install dependencies
-
-##
-<tab><tab>code/npm install
+    npm install
 
 # Run dev server
-
-##
-<tab><tab>code/npm run dev
+    npm run dev
 
 
 Frontend → http://localhost:8080
