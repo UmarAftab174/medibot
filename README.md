@@ -48,12 +48,12 @@ Includes backend health-check endpoint to verify service status.
 ######       
     git clone https://github.com/Umaraftab174/medibot.git
 
-##
-<tab><tab>code/cd medibot
+#
+    cd medibot
 
 # Create virtual environment
 ##
-<tab><tab>code/python -m venv venv
+    python -m venv venv
 
 # Activate venv
 
