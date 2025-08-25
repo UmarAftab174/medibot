@@ -45,35 +45,56 @@ Includes backend health-check endpoint to verify service status.
 
 ***Backend Setup***
 # Clone repo and move into folder
-git clone https://github.com/Umaraftab174/medibot.git
-cd medibot
+##
+<tab><tab>code/git clone https://github.com/Umaraftab174/medibot.git
+
+##
+<tab><tab>code/cd medibot
 
 # Create virtual environment
-python -m venv venv
+##
+<tab><tab>code/python -m venv venv
 
 # Activate venv
-source venv/bin/activate
-# venv\Scripts\activate
+
+##
+<tab><tab>code/source venv/bin/activate
+##
+<tab><tab>code/venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+
+##
+<tab><tab>code/pip install -r requirements.txt
 
 # Create .env file and add the following:
-# SECRET_KEY=your-secret-key
-# GOOGLE_API_KEY=your-google-genai-key
+
+##
+<tab><tab>code/SECRET_KEY=your-secret-key
+
+##
+<tab><tab>code/GOOGLE_API_KEY=your-google-genai-key
 
 # Run server
-uvicorn main:app --reload
+
+##
+<tab><tab>code/uvicorn main:app --reload
 
 ***Frontend Setup***
 # Move to frontend folder
-cd ../frontend
+
+##
+<tab><tab>code/cd ./frontend
 
 # Install dependencies
-npm install
+
+##
+<tab><tab>code/npm install
 
 # Run dev server
-npm run dev
+
+##
+<tab><tab>code/npm run dev
 
 
 Frontend → http://localhost:8080
