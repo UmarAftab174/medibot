@@ -2,7 +2,7 @@
 
 #### MediBot is an AI-driven web application that helps users explore potential diseases based on reported symptoms. It combines a 1D Convolutional Neural Network (CNN) for prediction with an LLM-powered chatbot for interactive, educational health consultations.
 
-***✨ Features***
+## *✨ Features*
 
 - 🔍 Symptom-Based Disease Prediction
 - Select from 337+ symptoms with a searchable, drag-and-drop interface. A trained 1D-CNN model predicts possible diseases with confidence scores.
@@ -11,26 +11,26 @@ Post-prediction, consult a Gemini-powered LLM (via LangChain) for explanations, 
 - 🔐 User Authentication & Profile Management
 Secure JWT-based authentication (with refresh tokens). Update profile info and manage login sessions safely.
 - 💬 Chat History Persistence
-Conversations stored in SQLite, accessible via a sidebar for easy navigation.
+Conversations are stored in SQLite and are accessible via a sidebar for easy navigation.
 - ⚙️ System Health Monitoring
 Includes backend health-check endpoint to verify service status.
 
-**🛠️ Architecture**
+## *🛠️ Architecture*
 
-*MediBot uses a client–server architecture:*
+***MediBot uses a client–server architecture:***
 
-- *Backend (FastAPI)*
+***Backend (FastAPI)***
 - Auth: JWT tokens, password hashing (bcrypt).
 - Prediction: TensorFlow 1D-CNN trained on symptom-disease dataset.
 - Chat: Integrated LLM (Google Generative AI via LangChain).
 - Database: SQLite (users, chat logs, tokens).
 
-- *Frontend (React + TypeScript)*
+***Frontend (React + TypeScript)***
 - UI: Built with React 18, TailwindCSS, and shadcn/ui components.
 - Navigation: React Router.
 - Features: Symptom selector, prediction dashboard, chat interface, sidebar history, and authentication pages.
 
-***Data Flow***
+## *Data Flow*
 
 - User selects symptoms → sends to backend.
 - Backend runs CNN prediction → creates chat session.
@@ -91,7 +91,7 @@ Frontend:
 React (TypeScript), TailwindCSS, shadcn/ui, React Router, Axios, Lucide Icons
 
 
-***🤝 Contributing***
+## *🤝 Contributing*
 
 *Contributions are welcome!*
 
