@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: medibot-backend
+    env: python
+    region: oregon
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /docs
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+
+  - type: web
+    name: medibot-frontend
+    env: node
+    region: oregon
+    buildCommand: "cd frontend && npm install && npm run build"
+    startCommand: "cd frontend && npm run preview -- --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: NODE_VERSION
+        value: 22.13.1
